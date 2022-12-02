@@ -1,5 +1,7 @@
 Baptiste Porcu 32024624
 
+Version avec image dans TD Mise en production image.pdf
+
 Pour mettre en place des services sur Mogenius :
 - Créer un cloudspace
 
