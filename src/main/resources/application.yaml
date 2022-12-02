@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/covid-db
-    username: postgres
-    password: sudo
+    username: ${POSTGRE_USER}
+    password: ${POSTGRE_PSWD}
   jpa:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       show-sql : true
