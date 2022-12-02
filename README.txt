@@ -22,4 +22,8 @@ Pour mettre en place des services sur Mogenius :
 
 - Lancer le service PostgreSQL puis le service Spring
 
-Lien du déploiement : 
+Lien du déploiement : https://api-prod-test-5vbdml.mo5.mogenius.io/api/{options}
+Options dispo : 
+ - showadmin
+ - showcenter
+ - showdoctor
