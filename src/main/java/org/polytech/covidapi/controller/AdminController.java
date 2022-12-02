@@ -39,12 +39,6 @@ public class AdminController {
         return str;
     }
 
-    @GetMapping(value="/erroe")
-    public ResponseEntity<List<Admin>> getAllUse(){
-        List<Admin> admins = userService.findAll();
-        return new ResponseEntity<>(admins, HttpStatus.OK);
-    }
-
     @GetMapping(value="/showadmin")
     public ResponseEntity<List<Admin>> getAllUser(){
         List<Admin> admins = userService.findAll();
