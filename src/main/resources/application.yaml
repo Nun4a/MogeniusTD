@@ -2,7 +2,7 @@ server:
   port: 9797
 spring:
   datasource:
-    url: jdbc:postgresql://dbapi-kcslp0:5432/covid-db
+    url: jdbc:postgresql://tcp-mo5.mogenius.io:41398/covid-db
     username: postgres
     password: sudo
   jpa:
