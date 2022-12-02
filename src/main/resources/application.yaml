@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://tcp-mo5.mogenius.io:41398/covid-db
     username: postgres
-    password: sud
+    password: sudo
   jpa:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       show-sql : true
