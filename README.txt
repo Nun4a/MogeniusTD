@@ -1,10 +1,6 @@
 Baptiste Porcu 32024624
 
-<<<<<<< HEAD
 Version avec image dans TD Mise en production image.pdf
-=======
-Vous pouvez retrouver le doc imagé dans le fichier TD Mise en production image.odt
->>>>>>> 52297bab7f4b97f872b10de7885e884159dad7dc
 
 Pour mettre en place des services sur Mogenius :
 - Créer un cloudspace
