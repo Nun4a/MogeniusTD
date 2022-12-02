@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://dbapi-kcslp0:5432/covid-db
-    username: {POSTGRES_USER}
-    password: {POSTGRES_PASSWORD}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
   jpa:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       show-sql : true
