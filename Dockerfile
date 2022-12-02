@@ -1,3 +1,3 @@
 FROM nginx
 
-COPY
+COPY html /app/mogenius
