@@ -1,8 +1,10 @@
+server:
+  port: 9797
 spring:
   datasource:
     url: jdbc:postgresql://database-f7qztf:5432/covid-db
-  # liquibase:
-  #   enabled: false
+    username: posgres-user
+    password: sudo
   jpa:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       show-sql : true
