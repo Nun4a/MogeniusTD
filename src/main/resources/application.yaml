@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://dbapi-kcslp0:5432/covid-db
-  liquibase:
-    enabled: false
+    url: jdbc:postgresql://database-f7qztf:5432/covid-db
+  # liquibase:
+  #   enabled: false
   jpa:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       show-sql : true
