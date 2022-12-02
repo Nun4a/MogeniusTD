@@ -1,3 +1,5 @@
 spring:
   datasource:
     url: jdbc:postgresql://database-f7qztf:5432/covid-db
+    username: ${POSTGRE_USER}
+    password: ${POSTGRE_PSWD}
