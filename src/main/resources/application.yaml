@@ -1,5 +1,3 @@
-server:
-  port: 9797
 spring:
   datasource:
     url: jdbc:postgresql://tcp-mo5.mogenius.io:41398/covid-db
