@@ -1,3 +1,3 @@
 spring:
   datasource:
-    url: jdbc:postgresql://database-f7qztf:5432/covid-db
+    url: jdbc:postgresql://database-4s5skc:5432/covid-db
